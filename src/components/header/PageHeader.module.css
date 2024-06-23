@@ -1,0 +1,17 @@
+.header {
+  width: 90rem;
+  max-width: 70rem;
+  height: 3rem;
+  padding-top: 2rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

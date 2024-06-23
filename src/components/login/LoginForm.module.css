@@ -1,0 +1,64 @@
+.container {
+  background-color: rgb(56, 56, 210);
+  margin: auto;
+}
+
+.form {
+  background-color: rgb(56, 56, 210);
+  margin: auto;
+  width: 30rem;
+  padding: 2rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  margin: 1rem;
+  width: 100%;
+  font: inherit;
+  padding: 0.8rem;
+  border-radius: 4px;
+  background-color: rgb(56, 56, 210);
+  border: 1px solid white;
+  color: white;
+}
+
+::placeholder {
+  color: rgb(239, 238, 238);
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+}
+
+.button {
+  width: 100%;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(56, 56, 210);
+}
+
+.button:hover {
+  background-color: rgb(56, 56, 210);
+  border: 1px solid white;
+  color: white;
+}

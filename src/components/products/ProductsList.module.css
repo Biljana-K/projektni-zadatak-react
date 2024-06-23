@@ -1,0 +1,37 @@
+.list {
+  width: 90rem;
+  max-width: 70rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  table-layout: auto;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.list thead {
+  font-weight: bold;
+  padding: 1rem;
+  color: #05050576;
+}
+
+.list th {
+  color: #070808;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  width: 2rem;
+}
+
+.list tbody {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.85rem;
+  color: #070808;
+}
+
+.list tr:nth-of-type(odd) {
+  background-color: #f6f2fa;
+}
+
+.list td {
+  padding: 1rem 1.5rem;
+  width: 2rem;
+}

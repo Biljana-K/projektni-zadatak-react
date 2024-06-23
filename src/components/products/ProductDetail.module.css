@@ -1,0 +1,23 @@
+.content {
+  max-width: 40rem;
+  margin: 2rem auto;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  background-color: #f6f2fa;
+  border-radius: 3px;
+  border: 1px solid #e3d0f6;
+  box-shadow: 0 2px 10px rgba(234, 78, 240, 0.2);
+  transition: all 0.2s;
+}
+
+.content li {
+  padding: 0.5rem;
+  color: #070808;
+}
+
+.content:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 10px rgba(234, 78, 240, 0.4);
+}
