@@ -9,7 +9,7 @@ function ErrorPage() {
         <h1>Oh, no! An Error!</h1>
         <p>Looked, but could not find this page!</p>
         <div>
-          <Link to={"/"}>Let's go back to Products Page</Link>
+          <Link to={"/"}>Back</Link>
         </div>
       </main>
     </>
