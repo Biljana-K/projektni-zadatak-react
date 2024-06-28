@@ -34,6 +34,24 @@
   color: white;
 }
 
+.input input[type="text"] {
+  background-image: url(person.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 10px 14px;
+}
+
+.input input[type="password"] {
+  background-image: url(password.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 10px 14px;
+}
+
+/* .input input[type="password"]:focus {
+  background-image: none;
+} */
+
 ::placeholder {
   color: rgb(239, 238, 238);
 }
