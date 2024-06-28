@@ -6,7 +6,7 @@ import LoginIcon from "./LoginIcon";
 
 const userNameReducer = (state, action) => {
   if (action.type === "USER_NAME") {
-    return { value: action.val, isValid: action.val !== 0 };
+    return { value: action.val, isValid: action.val.trim() !== "" };
   }
   return { value: "", isValid: false };
 };
@@ -86,8 +86,8 @@ function LoginForm(props) {
           <button
             className={classes.button}
             type="submit"
-            disabled={!formIsValid}
             onClick={props.onClick}
+            disabled={!formIsValid}
           >
             LOGIN
           </button>
