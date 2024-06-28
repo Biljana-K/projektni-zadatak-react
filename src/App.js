@@ -9,15 +9,15 @@ import ErrorPage from "./pages/Error";
 import LoginPage from "./pages/Login";
 
 const router = createBrowserRouter([
-  { path: "/", element: <LoginPage /> },
+  { path: "/", element: <LoginPage />, errorElement: <ErrorPage /> },
   {
     path: "products",
     element: <ProductsRoot />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
         element: <ProductsPage />,
-        errorElement: <ErrorPage />,
       },
       {
         path: "product/:id",
